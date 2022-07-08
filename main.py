@@ -2,7 +2,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path='C:/Users/David/PycharmProjects/Scraper/chromedriver.exe')
+driver = webdriver.Chrome(executable_path='C:/Users/William/PycharmProjects/Scraper/chromedriver.exe')
 driver.get('https://www.acefitness.org/resources/everyone/blog/')
 titles_list = []
 dates_list = []
